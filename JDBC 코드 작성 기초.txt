@@ -1,0 +1,32 @@
+/* 1. JDBC 객체 참조 변수 선언 */
+
+/* 2. DriverManager 객체를 이용해 Connection 객체 생성하기 */
+
+/* 3. SQL 작성 */
+
+/* 4. sql을 전달하고 결과를 받아올 Statement 객체 생성 */
+
+/* 4. sql을 전달하고 결과를 받아올 
+* PreparedStatement 객체 생성 + ? 값 세팅 */
+
+
+/* 5. Statement 객체를 이용해서 SQL을 DB로 전달 후 수행 
+ 1) SELECT문 : executeQuery() -> ResultSet으로 반환 
+ 2) DML문    : executeUpdate() -> 결과 행의 개수(int) 반환
+*/
+
+
+/* (5번 SQL이 SELECT인 경우에만)
+ * 6. 조회 결과가 저장된 ResultSet을 
+ * 1행씩 접근하여 각 행에 기록된 컬럼 값 얻어오기 */
+
+/* (DML 수행 시)
+ * 6. SQL 수행 결과에 따른 처리 + 트랜잭션 제어 */
+			 
+/* 7. 사용 완료된 JDBC 객체 자원 반환 */
+
+
+
+
+
+
